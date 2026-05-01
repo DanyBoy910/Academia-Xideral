@@ -13,5 +13,7 @@ El enfoque principal es demostrar el uso práctico de la **Herencia** y el **Pol
 # ☕ Semana 2: Excepciones, Patrones y Diseño
 ### 🚀 Proyecto de Aprendizaje - Academia Xideral
 
+
 Dominar el manejo robusto de excepciones, explorar clases anidadas y enumeraciones avanzadas, aprender interfaces funcionales con lambdas, y aplicar los patrones de diseño más utilizados en la industria.
+
 ---
