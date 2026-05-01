@@ -1,6 +1,8 @@
 # Daniel Rodríguez Orozco - Academia Xideral
 
-Este repositorio contiene la implementación de los conceptos fundamentales de la Programación Orientada a Objetos (POO) en Java, desarrollados durante la formación en **Academia Xideral**. 
+Este repositorio contiene la implementación de los conceptos fundamentales de la Programación Orientada a Objetos (POO) en Java, desarrollados durante la formación en 
+
+**Academia Xideral**. 
 ---
 # ☕ Semana 1: Java Básico: Herencia y Polimorfismo
 ### 🚀 Proyecto de Aprendizaje - Academia Xideral
