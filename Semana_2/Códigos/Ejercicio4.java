@@ -16,6 +16,7 @@ Demostrar encadenamiento de predicados con .and() y .or().
 
 import java.util.*;
 import java.util.function.*;
+
 record Product(String name, double price, String category, boolean inStock) {
     boolean isAvailable() { return inStock; }
 
@@ -43,8 +44,8 @@ class ProductPipeline {
     public void forEach(List<Product> products, Consumer<String> action) {
         // TODO: filtrar productos, aplicar transformacion, ejecutar accion
         for (Product p : products) {
-            if (p.isAvailable()) {
-                action.accept(___);
+            if (filter.test(p)) {
+                action.accept(transform.apply(p));
             }
         }
     }
@@ -53,7 +54,9 @@ class ProductPipeline {
         // TODO: contar productos que pasan el filtro
         long total = 0;
         for (Product p : products) {
-            if (___) total++;
+            if (filter.test(p)) {
+                total++;
+            }
         }
         return total;
     }
